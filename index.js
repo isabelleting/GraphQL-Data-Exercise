@@ -99,7 +99,7 @@ var root = {
    return restaurants
   },
   setrestaurant: ({ input }) => {
-     restaurants.push({name:input.name,description:input.description})
+    restaurants.push({name:input.name,description:input.description})
     return input
   },
   deleterestaurant: ({ id }) => {
