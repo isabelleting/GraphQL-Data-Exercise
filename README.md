@@ -2,15 +2,24 @@
 
 ## Description 
 
-An exercise with MIT xPro writing queries and mutations with GraphQL for restaurant data. 
+An exercise with MIT xPro writing queries and mutations with GraphQL to Create, Read, Update, and Delete restaurant data.
 
 ## How To Run
 
-After running npm install, command node index.js or npm start to start the Express server. Navigate to localhost:5500/graphql to access the GraphQL playground.
+- After running **npm install**, command **node index.js** or **npm start** to start the Express server. Navigate to localhost:5500/graphql to access the GraphQL playground.
+- setRestaurants mutation creates a new restaurant. 
+- getRestaurants query returns all restaurants.
+- getRestaurant returns one specific restaurant by their id.
+- editRestaurants updates the name a restaurant by their id. 
+- deleteRestaurants deletes a restaurant by their id. 
+
+## Screenshots 
+
+<img width="1679" height="1008" alt="Update" src="https://github.com/user-attachments/assets/d40600e3-4af8-4676-ab71-a38427303e4a" />
 
 ## Roadmap of Future Improvements
 
-I would like to have the restaurant data in a database like Strapi or Mongo instead.
+I would like to have the restaurant data in a database like Strapi or MongoDB instead.
 
 ## License
 
