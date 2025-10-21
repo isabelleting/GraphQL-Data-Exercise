@@ -19,7 +19,7 @@ An exercise with MIT xPro writing queries and mutations with GraphQL to Create, 
 
 ## Roadmap of Future Improvements
 
-I would like to have the restaurant data in a database like Strapi or MongoDB instead.
+Have the restaurant data in a database like MongoDB instead.
 
 ## License
 
